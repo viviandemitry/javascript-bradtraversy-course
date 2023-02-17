@@ -21,4 +21,4 @@ val = document.scripts;
 val = document.scripts[2].getAttribute('src'); // selecting the src attribute;
 
 
-console.log(val)
+console.log(val);
