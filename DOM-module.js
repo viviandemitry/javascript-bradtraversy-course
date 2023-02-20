@@ -22,3 +22,5 @@ val = document.scripts[2].getAttribute('src'); // selecting the src attribute;
 
 
 console.log(val);
+
+
