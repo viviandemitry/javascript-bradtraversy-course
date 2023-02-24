@@ -36,7 +36,7 @@ document.querySelector('form').addEventListener('submit',
   e.preventDefault();
 });
 
-const tasks = JSON.parse(localStorage.getItem('tasks'));
+const tasks = JSON.parse(localStorage.getItem('tasks'));  // Parse the data with JSON.parse(), and the data becomes a JavaScript object.
 
 tasks.forEach(function(task){
   console.log(task);
